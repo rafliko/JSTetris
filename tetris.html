@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="tetris.css">
+</head>
+<body>
+    <canvas id="canv1"></canvas>
+    <h2>Next:</h2>
+    <canvas id="canv2"></canvas>
+    <h2>High score: <span id="highscore">0</span></h2>
+    <h2>Score: <span id="score">0</span></h2>
+    <h2>Lines: <span id="lines">0</span></h2>
+    <h2>Level: <span id="level">1</span></h2>
+    <label>Skin: </label>
+    <select id="skinSelect" onchange="changeSkin()">
+        <option>skin1</option>
+        <option>skin2</option>
+        <option>skin3</option>
+        <option>skin4</option>
+        <option>skin5</option>
+        <option>skin6</option>
+        <option>skin7</option>
+        <option>skin8</option>
+    </select>
+    <img id="skin" src="skins/skin1.png" hidden>
+    <script src="tetris.js"></script>
+</body>
+</html>
