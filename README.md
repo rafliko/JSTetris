@@ -1,2 +1,2 @@
 # JSTetris
-Gra trtis w języku JavaScript
+Gra tetris w języku JavaScript
